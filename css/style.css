@@ -1,0 +1,180 @@
+/* You can add global styles to this file, and also import other style files */
+html {
+  overflow-x: hidden;
+  background-color: #fcf9f9;
+  scroll-behavior: smooth;
+}
+
+/* label focus color */
+.input-field label {
+  color: #ffb72f !important;
+}
+
+.input-field input:focus + label {
+  color: #ffb72f !important;
+}
+
+/* label underline focus color */
+.row .input-field input:focus {
+  border-bottom: 1px solid #ffb72f !important;
+  box-shadow: 0 1px 0 0 #ffb72f !important;
+}
+
+textarea:focus {
+  border-bottom: 1px solid #ffb72f !important;
+  box-shadow: 0 1px 0 0 #ffb72f !important;
+}
+
+/* icon prefix focus color */
+.input-field .prefix.active {
+  color: rgba(235, 255, 52, 0.938) !important;
+  text-shadow: 0px 0px 60px rgba(235, 255, 52, 0.938);
+}
+
+textarea,
+input {
+  color: white !important;
+}
+
+.nav-image {
+  margin-top: 5px;
+  width: 48px;
+  height: 50px;
+}
+
+.font-logo {
+  font-family: "Alata";
+  font-size: 17px !important;
+}
+
+.subheader-text {
+  font-family: "Alata", sans-serif;
+}
+
+.idea-image {
+  margin-top: 20%;
+  height: 400px;
+  width: auto;
+}
+
+.message-text {
+  margin-top: 15%;
+}
+
+.discovery-icon {
+  margin-top: 3%;
+}
+
+strong {
+  color: #ffb72f;
+}
+
+.services-section {
+  background-color: #111111;
+}
+
+.services-section-title {
+  color: #ffb72f;
+}
+
+.grid-services {
+  margin-top: 5%;
+  margin-bottom: 3%;
+}
+
+p {
+  color: #efefef;
+  padding: 10%;
+  cursor: default;
+}
+
+.glow:hover {
+  color: rgba(235, 255, 52, 0.938) !important;
+  cursor: default;
+  text-shadow: 0px 0px 60px rgba(235, 255, 52, 0.938);
+}
+
+.display-section {
+  background-color: rgba(238, 253, 105, 0.938) !important;
+}
+
+.text-message-display {
+  margin-top: 11%;
+  text-align: left;
+}
+
+.img-display {
+  margin-top: 5%;
+  height: 600px;
+  width: auto;
+}
+
+.down-icon {
+  animation-duration: 2s;
+}
+
+.ms-img {
+  width: 100%;
+  height: auto;
+}
+
+.contact-section {
+  background-color: #111;
+}
+
+.send-button {
+  border-radius: 40px 40px 40px 40px;
+  background-color: #ffb72f;
+  color: #262626;
+  width: 150px;
+  border: none;
+  height: 40px;
+}
+.btn{
+  border-radius: 80px!important;
+  width: 200px;
+  background-color: rgb(233, 201, 142)!important;
+}
+.btn:hover{
+  border-radius: 80px!important;
+  width: 200px;
+  background-color: rgb(253, 189, 70)!important;
+}
+.send-button:hover {
+  background-color: rgb(233, 201, 142);
+}
+
+h4 {
+  color: #ffb72f;
+}
+
+hr {
+  width: 30%;
+  margin-top: 5em !important;
+}
+
+.social-icons {
+  margin: 5em !important;
+  display: flex;
+  flex-direction: row;
+}
+
+.footer-copyright {
+  display: flex;
+  flex-direction: row;
+  height: 80px;
+  background-color: #222222;
+}
+
+.h6-foot {
+  margin-top: 25px !important;
+  color: #ffb72f;
+}
+
+.black-text {
+  background-color: #222222 !important;
+}
+
+.footer-title {
+  margin: 12px;
+}
